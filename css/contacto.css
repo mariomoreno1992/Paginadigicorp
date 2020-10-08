@@ -1,0 +1,73 @@
+body{ 
+
+    background-color:white;
+}
+
+
+.fa{
+    color: #a9d52f;    
+}
+
+
+.subtitulo{ 
+    font-family: 'Quicksand', sans-serif;
+
+font-size: 40px;
+text-align: center;
+color:#666666;
+
+}
+
+.subtitulomapa{ 
+font-family: 'Quicksand', sans-serif;
+font-size: 12px;
+text-align: center;
+color:#666666;
+
+}
+
+
+
+
+.parrafo{
+text-align: center;
+font-size: 14px;
+
+}
+
+
+
+hr{ 
+    width: 69%;
+    height: 6px;
+    background-color: #a9d52f;
+    border: none;
+}
+
+
+.fondo{
+    width: 69%;
+    background-color:rgba(148, 148, 142, 0.158);
+    border-radius: 6px;
+    
+}
+.formulario{
+width: 60%;
+text-align: left;
+
+} 
+
+.banner{
+
+width: 99%;
+height: 150px;
+} 
+
+.grfmapa{
+
+    width: 240px;
+    height: 150px;
+    margin:6px;
+    
+} 
+ 

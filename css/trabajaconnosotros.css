@@ -1,0 +1,75 @@
+.controladorimg{
+width:100%;
+height:100%;
+}
+
+.hrmanejador{
+background-color: #a9d52f;
+
+height: 6px;
+
+border: none;
+}
+
+
+.parrafo1{
+
+margin-top: 60px;
+text-align: justify;
+
+}
+
+.parrafoacordeon1{
+font-size:30px;
+color: #666666;
+text-align:left;
+
+}
+
+
+.controladorimg2{
+margin-top: 15px;
+margin-bottom: 30px;
+width:200px;
+height:200px;
+}
+
+
+.subtitulo
+{
+    font-weight : bold;
+    text-align: center;
+}
+
+
+.subtitulo2
+{
+    font-weight : bold;
+    text-align: center;
+    color:  #666666;
+}
+
+
+
+
+
+
+.borderow{
+
+border: 1px  rgba(148, 148, 142, 0.158);
+
+}
+
+
+.bordecolumna{
+
+    border: 1px solid  #666666;
+}
+
+
+.fa{
+font-size: 30px;
+color: #666666;
+margin-top: 15px;
+
+}

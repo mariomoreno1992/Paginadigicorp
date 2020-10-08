@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/formulario_empresajuridica.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <script src="/js/formulario_tecnicoinstalador.js"></script>
+    <title>Document</title>
+</head>
+<body>
+
+
+    <div class="col-12 text-center estilotexto"><h1>Formulario Técnico-Instalador</h1> </div>
+        
+        
+                <div>
+                    <hr class="hrmanejador">
+                
+                </div>
+    <main class="fondo">
+                
+       <div class="container">
+
+                
+              
+                <form action=""  class="formulario">
+                        
+                    
+                    <div class="col-12 text-center estilotexto"><h4>Datos de la empresa</h4></div>
+                                
+                    <div class="col-12 text-center">
+                    --------------------------------------------------------------------------------------
+                    </div>
+
+                   
+                    <div class="col-12 form-group">
+
+                        <label class="subtitulo"> Apellido Paterno</label>
+                        <input type="text" id="apellidop_tecnico" class="form-control" pattern="[A-Za-z]+{1,15}" required placeholder="Ingrese su apellido paterno">
+                    </div>
+
+
+                    <div class="col-12 form-group">
+
+
+                            <label class="subtitulo"> Apellido Materno</label>
+                            <input type="text" class="form-control" id="apellidom_tecnico" pattern="[A-Za-z]+{1,15}" required  placeholder="Ingrese su apellido materno">
+
+                    </div>
+
+
+                    <div class="col-12 form-group">
+
+                        <label class="subtitulo"> Nombre</label>
+                        <input type="text" class="form-control" id="nombre_tecnico" required pattern="[A-Za-z]+{1,15}"  placeholder="Ingrese su nombre">
+                    </div>
+
+
+
+                    <div class="col-12 form-group">
+
+                        <label class="subtitulo">  Cédula de identidad</label>
+                        <input type="number" class="form-control" id="cedula_tecnico" required  pattern="[0-9]{6,12}"  placeholder="Ingrese su cedula de identidad"> 
+                    </div>
+                    
+
+                    <div class="col-12 form-group">
+                        <label class="subtitulo">Seleccione la extensión</label>
+                                                             
+                    </div>
+                                      
+                    <div class="col-12 form-group">
+                    <label class="subtitulo">Extension CI</label>
+                    <select id="extension_tecnico"  class="form-control   required-entry  mage-error" aria-invalid="true" required>
+                                <option value="">Seleccione la extensión </option>
+                                <option value="SC">SC</option>
+                                <option value="LP">LP</option>
+                                <option value="CB">CB</option>
+                                <option value="OR">OR</option>
+                                <option value="PT">PT</option>
+                                <option value="TJ">TJ</option>
+                                <option value="CH">CH</option>
+                                <option value="BE">BE</option> 
+                                <option value="PD">PD</option>
+                    </select>
+                    </div>
+
+                    <div class="col-12 form-group">
+                        <label class="subtitulo">Fecha de nacimiento </label>
+                        <input type="date"  id="fnacimiento_tecnico" class="form-control" required >
+                    </div>
+
+
+                    <div class="col-12 form-group">
+                    <label class="subtitulo"> Dirección de domicilio</label>
+
+                    <input type="text"  id="direcion_tecnico" class="form-control"  placeholder="Ingrese su direccion" required>
+
+                        </div>
+
+                   
+
+                    <div class="col-12 form-group">
+
+                        <label class="subtitulo">Departamento</label>
+                        <select name="" id="departamento_tecnico" class="form-control" required>
+                                         <option value="">Seleccione un departamento </option>
+                                         <option value="SC">Santa Cruz</option>
+                                         <option value="LP">La Paz</option>
+                                         <option value="CB">Cochabamba</option>
+                                         <option value="OR">Oruro</option>
+                                         <option value="PT">Potosi</option>
+                                         <option value="TJ">Tarija</option>
+                                         <option value="CH">Chuquisaca</option>
+                                         <option value="BE">Beni </option> 
+                                         <option value="PD">Pando</option>  
+                         </select>
+                    </div>
+
+                    
+
+
+                
+
+                    <div class="col-12 form-group">
+
+                    <label class="subtitulo"> Ciudad</lAbel>
+                        <input type="text"  id="ciudad_tecnico"   class="form-control"  required pattern="[A-Za-z]+{1,15}" placeholder="Ingre su ciudad">
+
+                    </div>
+
+
+
+                   
+
+
+                    <div class="col-12 form-group">
+                    
+                    <label class="subtitulo"> Telefono celular</label>    
+                       
+                        <input type="number"  id="telefono_tecnico" class="form-control"  pattern="[0-9]{6,12}" required placeholder="Ingrese su telefono"> 
+                     
+                    </div>
+
+
+                   
+        
+
+                    <div class="col-12 form-group">
+                        <label class="subtitulo"> Correo electrónico</label>
+                        <input type="email"  id="correo_tecnico" class="form-control" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" placeholder="Ingrese su correo electronico">
+
+                    </div>
+
+                   <div class="col-12 form-group">
+
+                    <label class="subtitulo"> Nombre para  factura</label>
+                    <input type="text" class="form-control" id="nombre_tecnicofactura" required pattern="[A-Za-z]+{1,15}"  placeholder="Ingrese el nombre para factura">
+                    </div>
+
+
+
+                   <div class="col-12 text-center">
+                    --------------------------------------------------------------------------------------
+                    <br>
+                    </div>
+                   
+                    <button type="button" class="btn btn-success" onclick="recogerdatos()">Registrar</button>
+                
+                 </form>
+
+      
+       </div>
+</main>
+
+
+</body>
+</html>

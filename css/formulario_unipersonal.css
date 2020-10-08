@@ -1,0 +1,28 @@
+.fondo{
+    width: 70%;
+    background-color:rgba(148, 148, 142, 0.158);
+    border-radius: 6px;
+    margin: auto;
+    
+    padding-top: 20px;
+}
+
+.hrmanejador{
+background-color: #a9d52f;
+width: 70%;
+height: 6px;
+margin-bottom: 20px;
+border: none;
+}
+
+
+.estilotexto{ 
+font-family: 'Quicksand', sans-serif;
+text-align: center;
+color:#666666;
+font-weight:900;
+}
+
+.subtitulo{
+font-weight : bold;
+}
